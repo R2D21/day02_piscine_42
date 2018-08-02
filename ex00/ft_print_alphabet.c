@@ -6,14 +6,14 @@
 /*   By: rboivin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/01 05:33:27 by rboivin           #+#    #+#             */
-/*   Updated: 2018/08/02 04:19:27 by rboivin          ###   ########.fr       */
+/*   Updated: 2018/08/02 04:45:10 by rboivin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-int	ft_putchar(char c);
+int		ft_putchar(char c);
 
 void	ft_print_alphabet(void)
 {

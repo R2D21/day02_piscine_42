@@ -14,7 +14,7 @@ GREP	=	/usr/bin/grep
 
 NORMINETTE = norminette -R CheckForbiddenSourceHeader
 
-NORME = $(LS) * |  $(GREP) ~ | $(RM) && $(LS) * | $(GREP) a.out | $(RM) && $(NORMINETTE) | $(GREP) ft
+NORME =  sh clean && $(LS) * | $(GREP) a.out | $(RM) && $(NORMINETTE) | $(GREP) ft*
 
 SRCS	=	main.c \
 		ex00/ft_print_alphabet.c \
@@ -25,7 +25,7 @@ SRCS	=	main.c \
 		ex05/ft_print_comb2.c \
 		ex06/ft_putnbr.c \
 		ex07/ft_print_combn.c \
-		ex00/puts.c \
+		puts.c \
 
 OBJS	=	$(SRCS:.c=.o)
 

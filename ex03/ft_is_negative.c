@@ -6,9 +6,11 @@
 /*   By: rboivin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/01 05:43:05 by rboivin           #+#    #+#             */
-/*   Updated: 2018/08/02 05:15:38 by rboivin          ###   ########.fr       */
+/*   Updated: 2018/08/05 04:15:12 by rboivin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+int		ft_putchar(char c);
 
 void	ft_is_negative(int n)
 {

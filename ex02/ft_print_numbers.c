@@ -6,16 +6,16 @@
 /*   By: rboivin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/01 05:38:23 by rboivin           #+#    #+#             */
-/*   Updated: 2018/08/02 04:58:58 by rboivin          ###   ########.fr       */
+/*   Updated: 2018/08/06 15:13:56 by rboivin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
+void	ft_print_numbers(void);
+void	ft_putchar(char c);
 
 void	ft_print_numbers(void)
 {
-	char number;
+	char	number;
 
 	number = '0';
 	while (number <= '9')

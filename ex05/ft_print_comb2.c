@@ -1,8 +1,20 @@
-void    ft_putchar(char c);
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rboivin <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/08/05 04:36:58 by rboivin           #+#    #+#             */
+/*   Updated: 2018/08/06 16:22:24 by rboivin          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+void	ft_putchar(char c);
 
 void	ft_write(char a, char b, char c, char d)
 {
-	if (a == '9' && b =='8' && c == '9' && d == '9')
+	if (a == '9' && b == '8' && c == '9' && d == '9')
 	{
 		ft_putchar(a);
 		ft_putchar(b);
@@ -22,7 +34,7 @@ void	ft_write(char a, char b, char c, char d)
 	}
 }
 
-void ft_check(char a, char b, char c, char d)
+void	ft_check(char a, char b, char c, char d)
 {
 	if (a < c)
 	{
@@ -35,7 +47,7 @@ void ft_check(char a, char b, char c, char d)
 	}
 }
 
-void ft_print_all(char a, char b, char c, char d)
+void	ft_print_all(char a, char b, char c, char d)
 {
 	while (a <= '9')
 	{
@@ -59,7 +71,7 @@ void ft_print_all(char a, char b, char c, char d)
 	}
 }
 
-void ft_print_comb2(void)
+void	ft_print_comb2(void)
 {
 	char a;
 	char b;
